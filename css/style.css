@@ -1,0 +1,23 @@
+#loveButton {
+    width: 150px;
+    height: 150px;
+    background-image: url('../heart.png'); /* Adjust path if image moves */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+  
+    
+  }
+  
