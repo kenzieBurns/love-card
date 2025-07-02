@@ -46,6 +46,8 @@
     flex-direction: column;
     gap: 20px;
     text-shadow: 0 0 6px rgba(255, 153, 172, 0.8);
+   
+
   }
   
   #question label {
