@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe6ec, #ffc9de);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.front-cover .card-cover {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff0f5;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(255, 105, 180, 0.4);
+  max-width: 1000px;
+  height: 40%;
+  width: 90%;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.card-cover .heart {
+  font-size: 60px;
+  color: #ff3366;
+  animation: pulse 1.5s infinite;
+}
+
+.card-cover h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #d63384;
+  margin-top: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #b03060;
+  margin-bottom: 30px;
+}
+
+.card-cover button {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+.card-cover button:hover {
+  background-color: #b71c5c;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
